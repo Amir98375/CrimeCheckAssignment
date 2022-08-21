@@ -1,7 +1,15 @@
 import React from 'react'
-
-export const navbar = () => {
+import './navbar.css'
+export const Navbar = () => {
   return (
-    <div>navbar</div>
+    <div>
+      <nav className='navbar'>
+        <ul>
+          <li>home</li>
+          <li>notice board</li>
+          <li>login</li>
+        </ul>
+      </nav>
+    </div>
   )
 }

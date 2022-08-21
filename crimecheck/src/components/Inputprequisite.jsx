@@ -8,7 +8,7 @@ export const Inputprequisite = ({
     <div>
            <div>
         <p className={inputlenghtflag}> lenght should be more than 8</p>
-        <p className={charFlag}>username containonly alpha numeric </p>
+        <p className={charFlag}>username contain alpha  numeric  only no special character Eg:@#$%^&* </p>
     </div>
     </div>
   )
