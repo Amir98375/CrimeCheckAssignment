@@ -73,13 +73,13 @@ app.get('/userPosts',async(req,res)=>{
     const userNotice=await Message.find().lean().exec()
     return res.status(201).send(userNotice)
 })
+const port=process.env.PORT || 5100;
 
-app.listen(5000,()=>{
+app.listen(port,async()=>{
     try {
-        connect()
-        console.log("listening on port 5000")
+        await connect();
+        console.log(`listening on port ${port}`)
     } catch (error) {
-        console.log("not connected")
+        console.log({message:error.message})
     }
-
 })

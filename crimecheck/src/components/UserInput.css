@@ -1,0 +1,14 @@
+.inputuser{
+height: 100px;
+width: 300px;
+}
+.buttonuser{
+    height: 50px;
+    width: 200px;
+}
+.invalid{
+    color: red;
+}
+.valid{
+    color: green;
+}
