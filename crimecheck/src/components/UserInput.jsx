@@ -42,7 +42,7 @@ export const UserInput = () => {
         navigate(`/notice/${userinput}`)
     }
   return (
-    <div>
+    <div className='containeruser'>
         <input type="text" value={userinput} placeholder='enter you user name' 
         className='inputuser'
         onFocus={handleFocus} onKeyUp={handlekeyUp} onChange={handleChange} />

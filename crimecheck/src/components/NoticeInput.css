@@ -1,0 +1,46 @@
+.container{
+    background-color: grey;
+  width: 40%;
+  margin: auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+.textclass{
+    height: 100px;
+    width: 50%;
+    margin: auto;
+
+}
+
+.main{
+    width: 100%;
+    padding-top: 20px;
+
+    border: 1px solid white;
+    margin: auto;
+  
+}
+.main1{
+  display: flex;
+  justify-content: space-around;
+}
+.heading{
+    color: goldenrod;
+    margin: auto;
+}
+body{
+    background-color: grey;
+}
+.buttontext{
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+ margin: auto;
+
+}
+.para{
+    color: white;
+}

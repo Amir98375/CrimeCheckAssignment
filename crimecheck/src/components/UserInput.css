@@ -1,14 +1,41 @@
-.inputuser{
-height: 100px;
-width: 300px;
-}
-.buttonuser{
-    height: 50px;
-    width: 200px;
-}
+
 .invalid{
     color: red;
 }
 .valid{
     color: green;
 }
+::placeholder{
+   
+    font-size: xx-large;
+    margin-top: 100px;
+    color: white;
+}
+.containeruser{
+    margin-top: 100px;
+    margin-left: 40%;
+    width: 20%;
+   
+    
+}
+.inputuser{
+    height: 70px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+ 
+    width: 300px;
+    margin: auto;
+    }
+    .buttonuser{
+        height: 50px;
+        width: 200px;
+        margin: auto;
+        margin-left: 60px;
+        background-color: blue;
+        margin-top: 30px;
+        color: white;
+        font-size: x-large;
+        border-radius: 20px;
+        border: none;
+    }
