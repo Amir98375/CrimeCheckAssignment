@@ -2,8 +2,9 @@
 const express=require("express")
 const mongoose=require("mongoose")
 const { body, validationResult } = require('express-validator')
+const cors=require("cors")
 const app=express()
-
+app.use(cors())
 app.use(express.json())
 const connect=()=>mongoose.connect(
     "mongodb+srv://web15:web15@cluster0.zieim.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
