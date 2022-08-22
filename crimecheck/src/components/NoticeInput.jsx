@@ -9,6 +9,7 @@ export const NoticeInput = () => {
     const {username}=useParams()
     const [textvalue,settextvalue]=useState('')
     const [data,setdata]=useState([])
+    const [reversed,setreversed]=useState('')
     useEffect(()=>{
         getData()
     },[])
@@ -27,11 +28,12 @@ console.log(textvalue)
             notice:textvalue
 
         }
-      
-        axios.post(`https://crime-check98.herokuapp.com/userPosts`,data)
+      console.log(data,'data inside postnotice')
+        axios.post(`http://localhost:5100/userPosts`,data)
         getData()
     }
-console.log(data)
+  
+
   return (
     <div className='container'>
         <h1 className='heading'>Notice Board</h1>
